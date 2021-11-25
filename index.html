@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Task1</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+    <form action="#" method="GET">
+        <div>
+            <p>Имя</p>
+            <input placeholder="имя" tabindex="1" type="text" name="username">
+        </div>
+        <div>
+            <p>Пароль</p>
+            <input tabindex="2" type="password" name="userpass">
+        </div>
+        <div>
+            <p>телефон</p>
+            <input tabindex="3" type="tel" name="userphone">
+        </div>
+        <div>
+            <p>пол</p>
+            <div>
+                <input tabindex="4" type="radio" name="gender" value="male">Мужской
+            </div>
+        </div>
+        <div>
+            <input tabindex="4" type="radio" name="gender" value="female">Женский
+        </div>
+        <div>
+            <p>имущество</p>
+            <div>
+                <input tabindex="5" checked type="checkbox" name="bike" value="yes">Велик
+            </div>
+            <div>
+                <input tabindex="6" type="checkbox" name="house" value="yes">Квартира
+            </div>
+            <div>
+                <input tabindex="7" disabled type="checkbox" name="car" value="yes">Машина
+            </div>
+        </div>
+        <div>
+            <p>Доп инфо</p>
+            <textarea tabindex="8" name="text" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <p>прикрепить фото</p>
+            <input tabindex="9"  name="userfoto" type="file">
+        </div>
+        <div>
+            <p>любимы цвет</p>
+            <select tabindex="10" name="color">
+                <option value="red">Красный</option>
+                <option value="yellow">Желтый</option>
+                <option selected value="blue">синий</option>
+            </select>
+        </div>
+        <div>
+            <p>Действия</p>
+            <button tabindex="11" type="submit" >Отправить</button>
+            <button tabindex="12" type="reset" >Очистить</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
